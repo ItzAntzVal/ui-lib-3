@@ -569,7 +569,7 @@ function library:loader(props)
 		"Frame",
 		{
 			AnchorPoint = Vector2.new(0.5,0.5),
-			BackgroundColor3 = Color3.fromRGB(55, 185, 30),
+			BackgroundColor3 = Color3.fromRGB(168, 52, 235),
 			BorderColor3 = Color3.fromRGB(12, 12, 12),
 			BorderSizePixel = 1,
 			Size = UDim2.new(0,300,0,90),
@@ -617,7 +617,7 @@ function library:loader(props)
 			Position = UDim2.new(0.5,0,0,0),
 			Font = "RobotoMono",
 			Text = name,
-			TextColor3 = Color3.fromRGB(55, 185, 30),
+			TextColor3 = Color3.fromRGB(168, 52, 235),
 			TextXAlignment = "Center",
 			TextSize = 12,
 			TextStrokeTransparency = 0,
@@ -737,7 +737,7 @@ function library:loader(props)
 	login[1].Position = UDim2.new(0.5,0,0,62)
 	--
 	close[3].MouseButton1Down:Connect(function()
-		close[2].BorderColor3 = Color3.fromRGB(55, 185, 30)
+		close[2].BorderColor3 = Color3.fromRGB(168, 52, 235)
 		outline:TweenPosition(UDim2.new(-1.5,0,0.5,0),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,0.75,true)
 		closed()
 		wait(0.05)
@@ -747,7 +747,7 @@ function library:loader(props)
 	end)
 	--
 	login[3].MouseButton1Down:Connect(function()
-		login[2].BorderColor3 = Color3.fromRGB(55, 185, 30)
+		login[2].BorderColor3 = Color3.fromRGB(168, 52, 235)
 		outline:TweenPosition(UDim2.new(1.5,0,0.5,0),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,0.75,true)
 		logedin()
 		wait(0.05)
